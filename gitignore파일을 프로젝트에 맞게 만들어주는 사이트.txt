@@ -1,0 +1,24 @@
+.gitignore파일을 프로젝트에 맞게 만들어주는 사이트
+
+https://www.toptal.com/developers/gitignore
+
+
+
+
+
+
+
+
+ pull 안될때..
+
+Git 저장소의 우클릭 properties ..... 
+
+remote 카테고리에
+fetch 항목이 없다면 추가..   [Add Entry] 버튼
+
+
+key
+remote.origin.fetch : 원격 저장소로부터 가져올 브랜치 지정
+
+value
++refs/heads/*:refs/remotes/origin/*: 원격 저장소의 모든 브랜치
